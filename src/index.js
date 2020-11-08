@@ -12,7 +12,6 @@ const switchActiveTab = () => {
 }
 
 const displayTabContent = (event) => {
-    console.log(event)
     switchActiveTab();
     event.target.setAttribute('class', 'active-tab');
     const tab = event.target.innerText;
